@@ -21,7 +21,7 @@
     border: 1px solid red;
     height: 20vh;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
    
 }
 .project-section{
@@ -41,7 +41,7 @@
    
 }
 .navigation > ul {
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 30px 0px;
 }
 .upperbar > div {
     border: 1px solid green;
@@ -61,11 +61,19 @@
 }
 
 li::marker{
-    font-size: 2em;
+    font-size: 3em;
+    
+}
+li{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .home{
     list-style-image: url(home-circle.svg);
+    
 }
+
 .profile{
     list-style-image: url(face-man-profile.svg);
 }
