@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    
+}
+
+.logo{
+    display: flex ;
+    padding: 10px;
+    flex-direction: column;
+}
+.logo img{
+    vertical-align: bottom;
+}
+.sidebar{
+    background-color: #38bdf8;
+    border: 1px solid blue;
+    height: 100vh;
+    color: white;
+}
+.upperbar{
+    border: 1px solid red;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+   
+}
+.project-section{
+    height: 80vh;
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.project-section > div{
+    border: 1px solid black;
+}
+.main-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+   
+   
+}
+.navigation > ul {
+    margin: 20px 0px 20px 0px;
+}
+.upperbar > div {
+    border: 1px solid green;
+}
+.search, .notifications{
+    height: 8vh;
+}
+.hi, .upload{
+    height: 12vh;
+}
+.project-right{
+    display: grid;
+
+}
+.project-right > div{
+    border: 1px solid brown;
+}
+
+li::marker{
+    font-size: 2em;
+}
+.home{
+    list-style-image: url(home-circle.svg);
+}
+.profile{
+    list-style-image: url(face-man-profile.svg);
+}
+.messages{
+    list-style-image: url(message.svg);
+}
+.history{
+    list-style-image: url(history.svg);
+
+}
+.tasks{
+    list-style-image: url(view-grid.svg);
+}
+.communities{
+    list-style-image: url(account-group.svg);
+}
+.settings{
+    list-style-image: url(cog.svg);
+}
+.support{
+    list-style-image: url(help.svg);
+
+}
+.privacy{
+    list-style-image: url(shield-check.svg);
+}
