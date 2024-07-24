@@ -100,3 +100,17 @@ li{
 .privacy{
     list-style-image: url(shield-check.svg);
 }
+
+.projects{
+    margin-right: 15px;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    
+}
+.projects div{
+    width: 100%;
+    border: 1px solid limegreen;
+   
+}
